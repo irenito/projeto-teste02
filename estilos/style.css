@@ -77,6 +77,43 @@ nav > a:hover {
 }
 main {
   background-color: white;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+main h1 {
+  font-family: var(--font-android);
+  font-size: 1.6em;
+  color: var(--cor4);
+}
+main h2 {
+  font-family: var(--font-android);
+  font-size: 1.2em;
+  background-image: linear-gradient(to right, var(--cor3), var(--cor1));
+  color: var(--cor4);
+  
+}
+main p {
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 2.0em;
+  margin: 10px 0px;
+}
+main strong {
+  color: var(--cor5);
+  font-weight: bolder;
+}
+main a {
+  color: var(--cor4);
+  background-color: var(--cor2);
+  padding: 5px;
+  text-decoration: none;
+}
+main a:hover {
+  text-decoration: underline;
 }
 
 
