@@ -131,7 +131,7 @@ div.video{
   
   position: relative;
   padding-bottom: 58%; /* p calcular: height dividido por width (ver no iframe as medidas), nesse caso, 315 dividido por 560= 0.5625 x 100= 56.25% , valor aproximado, dai vai ajustando conforme aumenta ou diminui a tela, aparece  uma barra preta ao redor do iframe*/
-  margin: 0px -20px 0px -20px; /* para estender o background p direita e esquerda */
+  margin: 0px -20px 0px -20px; /* para estender o background, o fundo, p direita e esquerda */
 
 }
 div.video > iframe{
@@ -156,7 +156,25 @@ aside > h3 {
   border-radius: 10px 10px 0px 0px;
 }
 aside > ul {
-  
+  list-style-type: '\2714\00A0';
+  list-style-position: inside;
+  columns: 2;
+}
+footer {
+  background-color:var(--cor5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8em;
+}
+footer  a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  background-color: var(--cor3);
+  color: var(--cor4);
+  text-decoration: underline;
 }
 
 
